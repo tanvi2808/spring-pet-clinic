@@ -39,7 +39,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 				<goals>
-					<goal>install</goal>
+					install
 				</goals>
 				</configuration>
 			</plugin>
@@ -47,7 +47,7 @@
 	</build>
 	<scm>
 		<developerConnection>
-			scm:git:git@https://github.com/tanvi2808/spring-pet-clinic.git
+			scm:git:git@github.com:tanvi2808/spring-pet-clinic.git
 		</developerConnection>
 	  <tag>spring-pet-clinic-0.0.1</tag>
   </scm>
